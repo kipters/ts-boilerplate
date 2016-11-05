@@ -1,6 +1,6 @@
 # TypeScript project boilerplate
 
-I made this boilerplate for use in my own projects, but I thought it could be useful to others.
+I made this boilerplate for use in my own Node.js projects, but I thought it could be useful to others.
 
 It includes Visual Studio Code specific configurations (the `.vscode` directory), but you'll want to gitignore it in a real project.
 
