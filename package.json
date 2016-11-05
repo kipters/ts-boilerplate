@@ -1,27 +1,30 @@
 {
-  "name": "tsboiler",
-  "version": "1.0.0",
-  "description": "TypeScript project boilerplate",
-  "main": "build/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "grunt": "grunt",
-    "start": "node build/index.js",
-    "postinstall": "npm run grunt"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/debug": "0.0.29",
-    "@types/grunt": "^0.4.20",
-    "grunt": "^1.0.1",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-clean": "^1.0.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-ts": "^6.0.0-beta.3",
-    "grunt-tslint": "^3.3.0",
-    "tslint": "^3.15.1",
-    "typescript": "^2.0.7"
-  }
+    "name": "tsboiler",
+    "version": "1.0.0",
+    "description": "TypeScript project boilerplate",
+    "main": "build/index.js",
+    "engines": {
+        "node": "6.9.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "grunt": "grunt",
+        "start": "node build/index.js",
+        "postinstall": "npm run grunt"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/debug": "0.0.29",
+        "@types/grunt": "^0.4.20",
+        "grunt": "^1.0.1",
+        "grunt-cli": "^1.2.0",
+        "grunt-contrib-clean": "^1.0.0",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-watch": "^1.0.0",
+        "grunt-ts": "^6.0.0-beta.3",
+        "grunt-tslint": "^3.3.0",
+        "tslint": "^3.15.1",
+        "typescript": "^2.0.7"
+    }
 }
