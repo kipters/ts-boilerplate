@@ -14,6 +14,8 @@ The `config:{filename}` tasks copy the corrisponding json from `config` to `src/
 
 `npm start` is already configured to start `build/index.js`.
 
+This is also ready for git-deploying on Heroku, there's a postinstall action defined to compile it. You just need to move the packages needed to compile it from the devDependencies to the dependencies section of the package.json.
+
 ### Contributing
 
 If you find something that could be improved, open an issue and I'll look into that.
