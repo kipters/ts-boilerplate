@@ -1,0 +1,7 @@
+node_modules/
+.vscode/
+.tscache/
+build/
+src/.baseDir.ts
+npm-debug.log
+src/config.json
