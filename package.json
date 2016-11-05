@@ -12,8 +12,8 @@
         "start": "node build/index.js",
         "postinstall": "npm run grunt"
     },
-    "author": "",
-    "license": "ISC",
+    "author": "Fabio Di Peri",
+    "license": "MIT",
     "devDependencies": {
         "@types/debug": "0.0.29",
         "@types/grunt": "^0.4.20",
